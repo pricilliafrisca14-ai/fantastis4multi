@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mockup Multimedia</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .media-section {
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .media-section:last-child {
+            border-bottom: none;
+        }
+
+        h2 {
+            color: #555;
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            display: block;
+        }
+
+        video {
+            width: 100%;
+            border-radius: 8px;
+            outline: none;
+        }
+
+        audio {
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        .caption {
+            margin-top: 10px;
+            font-size: 0.9rem;
+            color: #777;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Tugas kelompok 2</h1>
+
+        <div class="media-section">
+            <h2>1. Komponen Foto (Image)</h2>
+            <img src="WhatsApp Image 2025-12-17 at 23.28.06.jpeg" alt="Contoh Gambar Mockup">
+            <p class="caption">Sumber: Unsplash/Picsum - Gambar responsif dengan border-radius.</p>
+        </div>
+
+        <div class="media-section">
+            <h2>2. Komponen Video</h2>
+            <video controls>
+                <source src="WhatsApp Video 2025-12-19 at 18.13.22.mp4" type="video/mp4">
+                Browser Anda tidak mendukung tag video.
+            </video>
+            <p class="caption">Contoh video MP4 dengan kontrol pemutar standar.</p>
+        </div>
+
+        <div class="media-section">
+            <h2>3. Komponen Audio</h2>
+            <p>Klik tombol putar untuk mendengarkan:</p>
+            <audio controls>
+                <source src="WhatsApp Video 2025-12-19 at 05.45.08.mp4" type="audio/mpeg">
+                Browser Anda tidak mendukung tag audio.
+            </audio>
+            <p class="caption">Contoh pemutar audio MP3 sederhana.</p>
+        </div>
+    </div>
+
+</body>
+</html>
